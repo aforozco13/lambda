@@ -1,4 +1,4 @@
-import boto3
+#import boto3
 import sys
 
 #client = boto3.client('datasync', region_name='us-east-1')
