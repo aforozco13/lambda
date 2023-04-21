@@ -1,5 +1,5 @@
 #import boto3
-import sys
+import os
 
 #client = boto3.client('datasync', region_name='us-east-1')
 
@@ -14,4 +14,4 @@ import sys
 #         ]
 #     )
 
-print (sys.argv[0])
+print (os.environ['Version'])
