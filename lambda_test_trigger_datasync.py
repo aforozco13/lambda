@@ -1,7 +1,7 @@
 import boto3
 import sys
 
-client = boto3.client('datasync', region_name='us-east-1')
+#client = boto3.client('datasync', region_name='us-east-1')
 
 # def lambda_handler(event,context):
 #     response = client.start_task_execution(
