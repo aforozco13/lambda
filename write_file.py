@@ -1,5 +1,7 @@
 import os
 import sys
+
+version = os.environ['Version']
 data ='''import boto3
 import os
 
@@ -18,5 +20,5 @@ def lambda_handler(event,context):
 '''
 
 file = open ('lambda_prueba.py', 'w')
-file.write(data.format('{',os.environ['$Version'],'}'))
+file.write(data.format('{',version,'}'))
 file.close()
