@@ -16,6 +16,7 @@ def lambda_handler(event,context):
         ]
     )
 '''
+
 file = open ('lambda_prueba.py', 'a')
 file.write(data.format('{',os.environ['$Version'],'}'))
 file.close()
